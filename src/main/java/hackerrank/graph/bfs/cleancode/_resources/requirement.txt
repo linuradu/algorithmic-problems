@@ -1,0 +1,30 @@
+	In the Java test, the candidate has to implement two algorithms to solve a graph problem.
+	For an unbalanced graph, the candidate shall compute common nearest ancestors as well as some attributes for nodes.
+
+	Finally, the algorithm shall be exposed via a REST API.
+	This is a good test to check problem-solving capabilities as well as testing and code structure.
+	>> Default maximum time for the candidate to solve the test: 48 hours
+	>> Default time window the candidate can start the test: 7 days
+
+	1. a graph problem
+	2. two algorithms
+	3. compute:
+		- common nearest ancestors (stramosii cei mai apropiati comuni)
+		- as well as some attributes for nodes
+
+
+	TODO: find problems with unbalanced Graph
+
+
+	TODO: crate REST API infrastructure
+	TODO: debug lambdas
+
+	Questions:
+	- what is balanced graph
+
+	- what is unbalanced graph
+
+
+	Algorithms:
+	- convert unbalanced to balanced: https://www.geeksforgeeks.org/convert-normal-bst-balanced-bst/
+	- BreathFirstSearch: https://www.youtube.com/watch?v=zaBhtODEL0w

@@ -1,0 +1,4 @@
+1;Addidas;139.5
+2;Puma;227
+3;Nike;321
+4;NewYorker;275

@@ -1,0 +1,37 @@
+Test 1:
+
+Given numbers: 3, 2, 4, 5, 6, -2, -3, -1, -5
+K value: 1
+The result should be:
+1 time(s) 3 : -2
+1 time(s) 2 : -1
+1 time(s) 4 : -3
+1 time(s) 6 : -5
+1 time(s) -2 : 3
+1 time(s) -3 : 4
+1 time(s) -1 : 2
+1 time(s) -5 : 6
+
+Created an example with unique elements.
+
+Test 2:
+
+Given numbers: 3, 2, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, -2, -3, -1, -5
+K value: 1
+The result should be:
+1 time(s) 3 : -2
+1 time(s) 2 : -1
+1 time(s) 4 : -3
+1 time(s) 6 : -5
+1 time(s) 2 : -1
+1 time(s) 3 : -2
+1 time(s) 4 : -3
+1 time(s) 6 : -5
+2 time(s) -2 : 3
+2 time(s) -3 : 4
+2 time(s) -1 : 2
+2 time(s) -5 : 6
+
+Here I've added duplicates values and I've ensured is working fine also.
+
+
